@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="kech1.css">
+  <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+	<a class="navbar-brand "href="#"><img src="images1/icn.png" width="200" height="150" class="d-inline-block align-top" alt="" /></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon">
+	</span></button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto" >
+			<li class="nav-item" > 
+			<a class="nav-link " href="index.html"><i class="fa fa-home" ></i>
+			Home</a></li>
+            <li class="nav-item"> 
+			<a class="nav-link" href="indecs.php" ><i class="fa fa-bookmark"></i>Reservation</a></li>
+			<li class="nav-item dropdown">
+			<a class="nav-link active dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#about" class="active"><i class="fa fa-question-circle"></i>about
+            <span class="caret"></span>
+			</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown_target">
+            <a class="dropdown-item" href="aboutUs.html">Cities</a>	
+             <a class="dropdown-item" href="activities.html">Activities</a>	
+            <a class="dropdown-item" href="cul.html">Culture</a>
+            <a class="dropdown-item" href="tra.html">Transport</a>
+            </div>
+		</li>
+			<li class="nav-item"> 
+						<?php include('index1.php'); ?>
+			<a class="nav-link" href="index1.php" ><i class="fa fa-commenting"></i>contact us</a>
+		</li>
+	
+
+		</ul>
+	</div>
+</div>
+</nav><!-- image silder -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1" ></li>
+        <li data-target="#slides" data-slide-to="2" ></li>
+	</ul>
+	<div class="carousel-inner" role="listbox">
+		<div class="carousel-item active"> <img src="images1/img11.jpg" class="img-responsive"/>
+			<div class="carousel-caption text-center"><h2 style="font-size:8vw;">Plan the perfect trip</h2>
+         <h3 style="font-size:3vw;">With TopTrip</h3>
+			</div>
+		</div>
+		<div class="carousel-item"> <img src="images1/wow.jpg" class="img-responsive"/></div>
+		<div class="carousel-item"> <img src="images1/sahara.jpg" class="img-responsive"/></div>
+		<a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		</a>
+		<a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		</a>
+	</div>
+</div>
+<section class="hotels">
+	<div class="container">
+		<h5 class="section-head">
+			
+			<span class="heading">Beautiful hotels</span></h5>
+</section>
+<div class="card-middle">
+	<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/asila/1.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Hotel Al Alba </h2>
+        <span class="hotel-price">From 45€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/asila/2.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Hotel Zelis</h2>
+        <span class="hotel-price">From 32€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>	
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/asila/3.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Hotel Al Khaima</h2>
+        <span class="hotel-price">From 50€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/asila/4.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>RIAD OASIS D'ASILAH</h2>
+        <span class="hotel-price">From 80€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/asila/5.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Dar Bouanani</h2>
+        <span class="hotel-price">From 27€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/asila/6.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>El Hambra 2</h2>
+        <span class="hotel-price">From 25€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/asila/7.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Patio De La Luna</h2>
+        <span class="hotel-price">From 25€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/asila/8.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Hotel Zelis</h2>
+        <span class="hotel-price">From 32€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/asila/9.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Ibn Rochd</h2>
+        <span class="hotel-price">From 42€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+</div>
+<div class="title">
+	<h2>Restaurant</h2>
+</div>
+<main>
+	<div class="box">
+	<figure class="section">
+		<img src="gallery1/asila/11.jpg" />
+		<figcaption>
+		<h2 ><span>Dar </span>Al Maghrebia</h2>
+		<p>Authentic, delicious and inexpensive cuisine</p>
+		</figcaption>
+	</figure></div>
+	<div class="box">
+	<figure class="section">
+		<img src="gallery1/asila/22.jpg" />
+		<figcaption>
+		<h2 > Port XIV<span> Restaurant</span></h2>
+		<p>Great restaurant.</p>
+		</figcaption>
+	</figure></div>
+	<div class="box">
+	<figure class="section">
+		<img src="gallery1/asila/33.jpg"/>
+		<figcaption>
+		<h2 > Zahora<span> Restaurant</span></h2>
+		<p>Simple and tasty dishes</p>
+	</figcaption>
+	</figure></div>
+	<div class="box">
+	<figure class="section">
+		<img src="gallery1/asila/44.jpg"/>
+		<figcaption>
+		<h2 >Restaurant<span> Al Alba</span></h2>
+		<p>very stylish restaurant, impeccable cleanliness, assured Moroccan gastronomy, best value for money.</p>
+	</figcaption>
+	</figure></div>
+		<div class="box">
+	<figure class="section">
+		<img src="gallery1/asila/55.jpg"/>
+		<figcaption>
+		<h2 >Restaurant <span> La Perle</span> D'Assilah</h2>
+		<p>A nice place to taste tasty cuisine.</p>
+	</figcaption>
+	</figure></div>
+		<div class="box">
+	<figure class="section">
+		<img src="gallery1/asila/66.jpg"/>
+		<figcaption>
+		<h2 ><span>Dar El</span> Merrakchia</h2>
+		<p>fine and delicious cuisine.</p>
+	</figcaption>
+	</figure></div>
+		<div class="box">
+	<figure class="section">
+		<img src="gallery1/asila/77.jpg">
+		<figcaption>
+		<h2 > Restaurant <span>ALIBABA </span></h2>
+		<p>Good reception, fast service very fresh and very good fish, delicious special frying.</p>
+	</figcaption>
+	</figure></div>
+		<div class="box">
+	<figure class="section">
+		<img src="gallery1/asila/99.jpg"/>
+		<figcaption>
+		<h2 > Restaurant <span>Farah </span></h2>
+		<p>very good value for money, the fish is fresh and friendly staff. Mixed frying is excellent.</p>
+	</figcaption>
+	</figure></div>
+		<div class="box">
+	<figure class="section">
+		<img src="gallery1/asila/88.jpg"/>
+		<figcaption>
+		<h2 >Restaurant <span>Tahadart</span></h2>
+		<p>Good and cheap</p>
+	</figcaption>
+	</figure></div>
+</main>
+<section class="teal">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-3">
+			<h4>AGENCY TOP TRIP</h4>
+<p>Easy Top Trip Morocco offers all of its travel expertise to help you choose between 40 travel destinations from Morocco, as well as a wide selection of hotels and flights at the cheapest prices.</p>
+		</div>
+		<div class="col-md-3">
+			<h4>Our Features</h4>
+			<ul>Deals & Offers</ul>
+			<ul>User Reviews</ul>
+			<ul>cancelation policy</ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Quik Contact</h4>
+			<ul><i class="fa fa-phone-square">+212 25480012</i></ul>
+			<ul><i class="fa fa-envelope">TopTrip@example.com</i></ul>
+			<ul><i class="fa fa-linkedin">Oumaima Machmachi</i></ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Follow Us</h4>
+			<ul><a href="#"><i class="fa fa-facebook"></i></a> Facebook</ul>
+			<ul><a href="#"><i class="fa fa-instagram"></i></a> Instagram</ul>
+			<ul><a href="#"> <i class="fa fa-twitter"></i></a> Twitter</ul>
+		</div>
+	</div>
+</div>
+</section>
+</body>
+</html>

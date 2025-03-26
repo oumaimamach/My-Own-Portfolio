@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="style1.css">
+  <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+	<a class="navbar-brand "href="#"><img src="images1/icn.png" width="200" height="150" class="d-inline-block align-top" alt="" /></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon">
+	</span></button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto" >
+			<li class="nav-item" > 
+			<a class="nav-link " href="index.html"><i class="fa fa-home" ></i>
+			Home</a></li>
+            <li class="nav-item"> 
+			<a class="nav-link" href="indecs.php"><i class="fa fa-bookmark"></i>Réservation</a></li>
+			<li class="nav-item dropdown">
+			<a class="nav-link active dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#about" class="active"><i class="fa fa-question-circle"></i>about
+            <span class="caret"></span>
+			</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown_target">
+            <a class="dropdown-item" href="aboutUs.html">Cities</a>	
+             <a class="dropdown-item" href="activities">Activities</a>	
+            <a class="dropdown-item" href="cul.html">Culture</a>
+            <a class="dropdown-item" href="tra.html">Transport</a>
+            </div>
+		</li>
+			<li class="nav-item"> 
+						<?php include('index1.php'); ?>
+			<a class="nav-link" href="index1.php" ><i class="fa fa-commenting"></i>contact us</a>
+		</li>
+		</ul>
+	</div>
+</div>
+</nav>
+<!-- image silder -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1" ></li>
+        <li data-target="#slides" data-slide-to="2" ></li>
+	</ul>
+	<div class="carousel-inner" role="listbox">
+		<div class="carousel-item active"> <img src="images1/img11.jpg" class="img-responsive" />
+			<div class="carousel-caption text-center"><h2 style="font-size:8vw;">Plan the perfect trip</h2>
+         <h3 style="font-size:3vw;">With TopTrip</h3>
+			</div>
+		</div>
+		<div class="carousel-item"> <img src="images1/wow.jpg" class="img-responsive" /></div>
+		<div class="carousel-item"> <img src="images1/sahara.jpg" class="img-responsive" /></div>
+		<a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		</a>
+		<a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		</a>
+	</div>
+</div>
+<div class="container">
+	<h2 class="text-center">Our tour places</h2></div>
+<div class="box ">
+	<div class="imgBx">
+		<img src="activies1/1.jpg">
+	</div>
+	<div class="content">
+		<h2>1-Visit the Tanneries in Fez</h2>
+		<p>The Imperial City of Fez is famous for its leather products, most of which come from the leather bazaar in the old medina. The tanneries have been in operation since medieval times and haven't changed much since. For the best view, head to the leather shops in the galleries above Chaouwara Tannery's central courtyard. From here, you can see the vats filled with colorful dyes; and the skins laid out to dry in the sunshine. The smell of the quicklime and pigeon feces mixture used to cure the hides can be overwhelming, but the sight of history in action more than makes up for it. Browse the shops themselves in search of authentic leather goods ranging from handbags to slippers.</p>
+	</div>
+</div>
+<div class="box">
+	<div class="imgBx">
+		<img src="activies1/hammam.jpg" />
+	</div>
+	<div class="content">
+		<h2>2-Steam in a Traditonal Hammam</h2>
+		<p>A hammam, or public steam bath, is a Moroccan rite of passage. In the past, when few people had the luxury of private bathrooms, hammams were social meeting places where people could come to bathe and gossip. Now, there are fewer public hammams but the ones that do still exist offer a fascinating cultural insight - and a chance for the best cleansing and exfoliation experiences of your life. They are also a great way for female travelers, in particular, to meet and socialize with local women. If the thought of bathing with total strangers is off-putting, consider an upscale hammam at a riad with private treatment rooms and high-quality products sourced from around Morocco.</p>
+	</div>
+</div>
+<div class="box ">
+	<div class="imgBx">
+		<img src="activies1/2.jpg" />
+	</div>
+	<div class="content">
+		<h2>3-Learn to Cook, Moroccan Style</h2>
+		<p>Moroccan cuisine is famous around the world for its fragrant spices and unique cooking methods. It is an amalgamation of many different influences - including the native cuisine of the Berbers, the Arabs, the Andalusians and the French. Sample iconic dishes like tagine and harira at street-side stalls in the city medina, then sign up for a cooking class to learn how to recreate the flavors at home. Many guesthouses or riads offer half or full-day culinary classes. The best ones take you into the market to purchase fresh ingredients, then show you the traditional ways to prepare them. Afterward, you'll get to taste your creation, while the skills you learn are a souvenir that will last forever.</p>
+	</div>
+</div>
+<div class="box ">
+	<div class="imgBx">
+		<img src="activies1/dinner.jpg" />
+	</div>
+	<div class="content">
+		<h2>4-Have Dinner at the Djemaa el Fna</h2>
+		<p>A vast central square located at the heart of the medina, the Djemaa el Fna is Marrakesh's beating heart. During the day, it's a popular meeting place full of snack stalls and street vendors; but at dusk, it transforms into an entertainer's paradise complete with jugglers, musicians, and snake charmers. The snack stands are replaced with stalls offering more substantial fare and the square is filled with tantalizing scents and the smoke from a hundred fires. Order grilled meats and fragrant tagines and eat with the locals at the vendors' communal tables; or watch the action from the relative peace of one of the elevated cafés that line the edge of the square. </p>
+	</div>
+</div>
+<div class="box ">
+	<div class="imgBx">
+		<img src="activies1/surfing.jpg" />
+	</div>
+	<div class="content">
+		<h2>5-Go Surfing at the Coast</h2>
+		<p>Morocco's Atlantic coast is home to its fair share of surf breaks, some of them world-class. For serious surfers, the best destination is Taghazout, a small fishing village located just north of Agadir. There are waves for all abilities here, from the challenging Boilers site to laid-back Immesouane, one of the longest rides in the country. Point Anchor is famed for its right-hand break, which runs for 500 meters during a powerful northwest swell. Beginner surfers and kite surfers also flock to popular beach resort Essaouira, where the swells are gentler (though less consistent). Wherever you go, try to time your trip for the September to April winter season, when swells are at their best. </p>
+	</div>
+</div>
+<div class="box ">
+	<div class="imgBx">
+		<img src="activies1/souk.jpg" />
+	</div>
+	<div class="content">
+		<h2>6-Perfect Your Haggling Skills in the Souks</h2>
+		<p>No visit to Morocco would be complete without at least one foray into the chaotic world of the urban souks. Typically located within the historic medina of cities like Fez, Marrakesh, and Meknes, these maze-like bazaars are filled with colors, scents, and sounds. Discover labyrinthine shops overflowing with Aladdin's lamps and swathes of richly colored fabric, or listen to the vendors as they advertise everything from hand-woven carpets to raw spices. The souk is the best place to buy your souvenirs, but be prepared for aggressive sales tactics and to bargain enthusiastically for the lowest price. Haggling is a skill that requires a good sense of humor and plenty of tenacity. </p>
+	</div>
+</div>
+<div class="box ">
+	<div class="imgBx">
+		<img src="activies1/montain.jpg" />
+	</div>
+	<div class="content">
+		<h2>7-Trek the High Atlas Mountains</h2>
+		<p>The Atlas Mountains stretch over 1,500 miles, from the west coast of Morocco to Tunisia. The High Atlas region is home to North Africa's highest peak, Jebel Toubkal, a top destination for hikers with a summit of 13,671 feet/ 4,167 meters. Most Jebel Toubkal treks start from Imlil, a mountain village located an hour's drive from Marrakesh. Although it's not compulsory to walk with a guide, it's definitely recommended. There are simple accommodations along the route, and the best time to attempt the summit is in April or May when the weather is pleasant and rains are at a minimum. If you don't feel like climbing the peak, there are many more sedate hikes in the surrounding area. </p>
+	</div>
+</div>
+<div class="box ">
+	<div class="imgBx">
+		<img src="activies1/riad.jpg" />
+	</div>
+	<div class="content">
+		<h2>8-Book a Stay in a Traditional Riad</h2>
+		<p>Riads are traditional Moroccan homes that have been converted into hotels known for their luxurious authenticity. Most are situated within the old walled cities of Fez and Marrakesh, putting you at the heart of the action. Step inside the riad's walls, however, and discover an oasis of peace and tranquility, complete with an open central courtyard (typically with a water feature), and rooms built into the surrounding galleries. Most riads are architectural masterpieces, boasting intricate mosaic-work, tiled floors, and graceful arches. The best ones have a pool and a rooftop terrace, where you can enjoy al fresco meals overlooking the minarets and rooftops of the city below.</p></div>
+	
+</div>
+<div class="box">
+	<div class="imgBx">
+		<img src="activies1/ski1.jpg" />
+	</div>
+	<div class="content">
+		<h2>9-Hit the Slopes at Oukaïmeden</h2>
+		<p>Skiing may not be the first thing you think of when planning a trip to Morocco, and it's true that the slopes here are not of the same quality as those in the United States or Europe. However, the novelty of a day on the slopes in North Africa is hard to beat, which is why many thrill-seekers find themselves at the mountain resort of Oukaïmeden. During the winter months of December and January, snow covers the slopes of nearby Jebel Attar mountain, and creaking chairlifts take you to the top of the resort's five downhill runs. Other facilities include a nursery slope and ski school; and intermediate slopes accessed via drag lifts (or more unusually, on the back of a donkey).</p>
+	</div>
+</div>
+<div class="box">
+	<div class="imgBx">
+		<img src="activies1/mosque.jpg" />
+	</div>
+	<div class="content">
+		<h2>10-Visit Casablanca's Hassan II Mosque</h2>
+		<p>There are many beautiful mosques in Morocco, but Casablanca's Hassan II mosque is one of the most impressive. It's the largest mosque in the country, and at 689 feet, its minaret is the tallest in the world. A relatively modern structure, it was completed in 1993 at the orders of King Hassan II, who wished to create a Casablancan landmark that could be recognized worldwide. The mosque took seven years to build and required the input of 10,000 artisan craftsmen. Today, non-Muslims can take a tour of the building's breathtaking interior outside prayer times. Alternatively, admire the beauty of the building and its oceanfront setting from the outside.  </p>
+	</div>
+</div>
+<div class="box ">
+	<div class="imgBx">
+		<img src="activies1/festival.jpg" />
+	</div>
+	<div class="content">
+		<h2>11-Attend a Cultural Festival</h2>
+		<p>Morocco is home to many unique annual events and festivals, and timing your trip to coincide with one of them can be a great way to immerse yourself in the local culture. Some, like the Fez Festival of World Sacred Music or the Essaouira Gnaoua and World Music Festival, are multi-day celebrations of music. Others are religious, while some are connected to the local harvest - including the date festival in Erfoud and the spectacular Dades Valley roses festival. Perhaps the most exciting event of all is the Marrakesh Popular Arts Festival, which sees entertainers and artists from all over the world gather for open-air performances in the Djemaa el Fna and 16th-century El Badi Palace.   </p>
+	</div>
+</div>
+<div class="box ">
+	<div class="imgBx">
+		<img src="activies1/sahara1.jpg" />
+	</div>
+	<div class="content">
+		<h2>12-Overnight in the Sahara Desert</h2>
+		<p>The Sahara Desert is a magical place to spend a few nights. Use the eastern town of Merzouga as your gateway to the spectacular Erg Chebbi dunes (recognizable as the backdrop for movies like The Mummy and Sahara). From here, you can book a camel safari or a 4x4 tour, both of which offer the chance to spend the night under the stars or in a traditional Bedouin village. Sunsets and sunrises are spectacular in the desert, transforming the dunes into dreamlike landscapes of ochre and red. After dark, the stars are blazing constellations unspoiled by the pollution of civilization. Keep an eye out for nocturnal desert creatures, including the jerboa and the fennec fox.   </p>
+	</div>
+</div>
+<section class="teal">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-3">
+			<h4>AGENCY TOP TRIP</h4>
+<p>Easy Top Trip Morocco offers all of its travel expertise to help you choose between 40 travel destinations from Morocco, as well as a wide selection of hotels and flights at the cheapest prices.</p>
+		</div>
+		<div class="col-md-3">
+			<h4>Our Features</h4>
+			<ul>Deals & Offers</ul>
+			<ul>User Reviews</ul>
+			<ul>cancelation policy</ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Quik Contact</h4>
+			<ul><i class="fa fa-phone-square">+212 25480012</i></ul>
+			<ul><i class="fa fa-envelope">TopTrip@example.com</i></ul>
+			<ul><i class="fa fa-linkedin">Oumaima Machmachi</i></ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Follow Us</h4>
+			<ul><a href="#"><i class="fa fa-facebook"></i></a> Facebook</ul>
+			<ul><a href="#"><i class="fa fa-instagram"></i></a> Instagram</ul>
+			<ul><a href="#"> <i class="fa fa-twitter"></i></a> Twitter</ul>
+		</div>
+	</div>
+</div>
+</section>
+</body>
+</html>

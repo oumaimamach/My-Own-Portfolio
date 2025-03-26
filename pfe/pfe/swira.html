@@ -1,0 +1,320 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="kech1.css">
+  <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+	<a class="navbar-brand "href="#"><img src="images1/icn.png" width="200" height="150" class="d-inline-block align-top" alt="" /></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon">
+	</span></button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto" >
+			<li class="nav-item" > 
+			<a class="nav-link " href="index.html"><i class="fa fa-home" ></i>
+			Home</a></li>
+            <li class="nav-item"> 
+			<a class="nav-link" href="indecs.php" ><i class="fa fa-bookmark"></i>Reservation</a></li>
+			<li class="nav-item dropdown">
+			<a class="nav-link active dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#about" class="active"><i class="fa fa-question-circle"></i>about
+            <span class="caret"></span>
+			</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown_target">
+            <a class="dropdown-item" href="aboutUs.html">Cities</a>	
+             <a class="dropdown-item" href="activities.html">Activities</a>	
+            <a class="dropdown-item" href="cul.html">Culture</a>
+            <a class="dropdown-item" href="tra.html">Transport</a>
+            </div>
+		</li>
+			<li class="nav-item"> 
+			<?php include('index1.php'); ?>
+			<a class="nav-link" href="index1.php" ><i class="fa fa-commenting"></i>contact us</a>
+					</li>
+
+		</ul>
+	</div>
+</div>
+</nav><!-- image silder -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1" ></li>
+        <li data-target="#slides" data-slide-to="2" ></li>
+	</ul>
+	<div class="carousel-inner" role="listbox">
+		<div class="carousel-item active"> <img src="images1/img11.jpg" class="img-responsive"/>
+			<div class="carousel-caption text-center"><h2 style="font-size:8vw;">Plan the perfect trip</h2>
+         <h3 style="font-size:3vw;">With TopTrip</h3>
+			</div>
+		</div>
+		<div class="carousel-item"> <img src="images1/wow.jpg" class="img-responsive"/></div>
+		<div class="carousel-item"> <img src="images1/sahara.jpg" class="img-responsive"/></div>
+		<a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		</a>
+		<a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		</a>
+	</div>
+</div>
+<section class="hotels">
+	<div class="container">
+		<h5 class="section-head">
+			
+			<span class="heading">Beautiful hotels</span></h5>
+</section>
+<div class="card-middle">
+	<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/swira/1.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Hotel Vents Des Iles</h2>
+        <span class="hotel-price">From 56€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/swira/2.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Hotel Cote ocean Mogador </h2>
+        <span class="hotel-price">From 55€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>	
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/swira/3.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Hôtel El Kasbah Souiria</h2>
+        <span class="hotel-price">From 36€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/swira/4.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Atlas Essaouira & Spa</h2>
+        <span class="hotel-price">From 79€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/swira/5.jpg" alt="" />
+	    </div>
+        <div class="content">
+        <h2>Suite Azur Hotel</h2>
+        <span class="hotel-price">From 51,66€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star-half rating"></i>
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/swira/6.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Mumtaz Mahal </h2>
+        <span class="hotel-price">From 59€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/swira/7.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Heure Bleue Palais</h2>
+        <span class="hotel-price">From 137,34€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/swira/8.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Villa Quieta </h2>
+        <span class="hotel-price">From 90,10€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+<div class="card">
+		<div class="imgBx"> 
+		<img src="gallery1/swira/9.jpg" alt=""/>
+	    </div>
+        <div class="content">
+        <h2>Hotel Ocean vagabond</h2>
+        <span class="hotel-price">From 108€/Night</span>	
+        <div class="hotel-rating">
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+				<i class="fa fa-star rating"></i>
+		</div>		
+        </div>
+</div>
+</div>
+<div class="title">
+	<h2>Restaurant</h2>
+</div>
+<main>
+	<div class="box">
+	<figure class="section">
+		<img src="gallery1/swira/11.jpg" />
+		<figcaption>
+		<h2 >Mega Loft<span>
+ by Othm</span>anChic</h2>
+		<p>Beautiful place, friendly staff and smiling warm welcome.</p>
+		</figcaption>
+	</figure></div>
+	<div class="box">
+	<figure class="section">
+		<img src="gallery1/swira/22.jpg"/>
+		<figcaption>
+		<h2 >Restaurant<span> Sayef</span></h2>
+		<p>Great restaurant hidden in a small alley in the medina.</p>
+		</figcaption>
+	</figure></div>
+	<div class="box">
+	<figure class="section">
+		<img src="gallery1/swira/33.jpg"/>
+		<figcaption>
+		<h2 >Restaurant<span> D'jazy</span></h2>
+		<p>Excellent address. High quality cuisine, Excellent atmosphere.</p>
+	</figcaption>
+	</figure></div>
+	<div class="box">
+	<figure class="section">
+		<img src="gallery1/swira/44.jpg"/>
+		<figcaption>
+		<h2 >Malaïka <span>Riad & Table</span> D’Hôtes</h2>
+		<p>Very nice Ryad super location in the medina </p>
+	</figcaption>
+	</figure></div>
+		<div class="box">
+	<figure class="section">
+		<img src="gallery1/swira/55.jpg"/>
+		<figcaption>
+		<h2 >La Coupole <span>Essaouira B</span>each</h2>
+		<p>very good original and tasty cuisine Friendly place and very well located Quality welcome.</p>
+	</figcaption>
+	</figure></div>
+		<div class="box">
+	<figure class="section">
+		<img src="gallery1/swira/66.jpg"/>
+		<figcaption>
+		<h2 >Restaurant<span> Khmissa</span></h2>
+		<p>Extremely warm welcome, and excellent cuisine.</p>
+	</figcaption>
+	</figure></div>
+		<div class="box">
+	<figure class="section">
+		<img src="gallery1/swira/77.jpg"/>
+		<figcaption>
+		<h2 > Restaurant <span> BistrO</span></h2>
+		<p>A good restaurant. Food was good, tea was great</p>
+	</figcaption>
+	</figure></div>
+		<div class="box">
+	<figure class="section">
+		<img src="gallery1/swira/88.jpg"/>
+		<figcaption>
+		<h2 >Seafood <span>corner</span></h2>
+		<p>The place is very pleasant, subdued atmosphere and careful decoration.</p>
+	</figcaption>
+	</figure></div>
+		<div class="box">
+	<figure class="section">
+		<img src="gallery1/swira/99.jpg"/>
+		<figcaption>
+		<h2 > Mandala <span>society</span></h2>
+		<p>ideal for a break from tagines and couscous.</p>
+	</figcaption>
+	</figure></div>
+</main>
+<section class="teal">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-3">
+			<h4>AGENCY TOP TRIP</h4>
+<p>Easy Top Trip Morocco offers all of its travel expertise to help you choose between 40 travel destinations from Morocco, as well as a wide selection of hotels and flights at the cheapest prices.</p>
+		</div>
+		<div class="col-md-3">
+			<h4>Our Features</h4>
+			<ul>Deals & Offers</ul>
+			<ul>User Reviews</ul>
+			<ul>cancelation policy</ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Quik Contact</h4>
+			<ul><i class="fa fa-phone-square">+212 25480012</i></ul>
+			<ul><i class="fa fa-envelope">TopTrip@example.com</i></ul>
+			<ul><i class="fa fa-linkedin">Oumaima Machmachi</i></ul>
+		</div>
+		<div class="col-md-3">
+			<h4>Follow Us</h4>
+			<ul><a href="#"><i class="fa fa-facebook"></i></a> Facebook</ul>
+			<ul><a href="#"><i class="fa fa-instagram"></i></a> Instagram</ul>
+			<ul><a href="#"> <i class="fa fa-twitter"></i></a> Twitter</ul>
+		</div>
+	</div>
+</div>
+</section>
+</body>
+</html>
